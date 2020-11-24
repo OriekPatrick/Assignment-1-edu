@@ -1,0 +1,151 @@
+*{margin:0;
+  padding:0;
+  box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    background:white;
+    color :grey;
+    font-size:18px;
+    /* padding:20px; */
+}
+
+/* parent div was added so that both the position fixed property and the justify content space beteween contentnt worked */
+.parent{
+    position:fixed;
+    top: 0;
+    left: 0;
+    margin: auto;
+    width: 100%
+}
+
+.navbar{
+    /* background:green; */
+    padding:20px;
+    margin:0;
+    /* position: relative; */
+    /* position: fixed; */
+}
+
+.nav-center{
+    
+    display:flex;
+    justify-content: space-between;
+    /* position:fixed; */
+    /* max-width: 1170px; */
+}
+
+.nav-link{
+    color:grey;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding:10px;
+    transition:all 3s ease;
+
+}
+
+.nav-link:hover{
+    color:red;
+}
+
+.scale{
+    height:250px;
+    width:400px;
+    margin-bottom:100px;
+    
+}
+
+
+.google{
+    min-height: 100vh;
+    /* background:red; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+/* .form-div{
+
+
+} */
+
+
+.search-bar{
+    position:relative;
+}
+
+.search-bar .fa-search{
+    position:absolute;
+    top:57%;
+    left:10px;
+    transform: translateY(-50%);
+}
+
+.search-bar .fa-microphone{
+    position: absolute;
+    top:57%;
+    right:10px;
+    transform:translateY(-50%);
+}
+input[type=text]{
+    width:100%;
+    border:3px solid black;
+    padding:18px;
+    border-radius:2rem;
+    height:50px;
+    cursor: pointer;
+}
+
+input[type=text]:hover{
+  box-shadow:3px 6px lightgrey;
+
+}
+input[type=text]:focus{
+    border:3px solid blue;
+}
+
+.button-div{
+    text-align:center;
+    margin-top:40px;
+    margin-right:10px;
+    
+}
+
+.button-div a{
+    text-decoration: none;
+    display:inline-block;
+    border:3px solid black;
+    margin-right:1px;
+    margin-left:10px;
+    padding:10px 19px;
+    border-radius:19px;
+    background:lightgrey;
+    color:black;
+    border:none
+}
+
+
+.button-div a:hover{
+    border:3px solid black;
+
+}
+.footer-divs{
+    background:lightgrey;
+    margin-top:300px;
+    /* width:100px; */
+    bottom:0;
+    padding:20px;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.footer-divs a{
+    text-decoration: none;
+    padding:20px;
+    text-transform:capitalize;
+}
