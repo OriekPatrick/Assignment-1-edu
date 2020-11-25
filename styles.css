@@ -51,9 +51,9 @@ body{
 }
 
 .scale{
-    height:250px;
+    height:200px;
     width:400px;
-    margin-bottom:100px;
+    margin-bottom:50px;
     
 }
 
@@ -95,13 +95,16 @@ input[type=text]{
     width:100%;
     border:3px solid black;
     padding:18px;
+    padding-left: 30px;
+    padding-right: 30px;
     border-radius:2rem;
     height:50px;
     cursor: pointer;
+    outline: none;
 }
 
 input[type=text]:hover{
-  box-shadow:3px 6px lightgrey;
+  box-shadow:3px 6px 10px lightgrey;
 
 }
 input[type=text]:focus{
